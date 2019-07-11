@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link href="https://fonts.googleapis.com/css?family=Cuprum|Roboto:400,600,700,900&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Task 2</title>
+</head>
+
+<body>
+    <div class="nav__bar conteiner">
+        <ul class="bar">
+            <li class="bar__item">
+                <input type="checkbox" id="check__smartphone" name="smartphone" /><label for="check__smartphone"> Смартфон</label>
+            </li>
+            <li class="bar__item">
+                <input type="checkbox" id="check__notebooks" name="notebooks" /><label for="check__notebooks"> Планшеты/Ноутбуки</label
+                  >
+                </li>
+                <li class="bar__item">
+                        <input type="checkbox" id="check__watch" name="watch" /><label for="check__watch">Часы</label>
+            </li>
+            <li class="bar__item">
+                <input type="checkbox" id="check__thinks" name="thinks" /><label for="check__thinks">Аксессуары</label>
+            </li>
+            <li class="bar__item">
+                <input type="checkbox" id="check__other" name="other" /><label for="check__other">Другое</label>
+            </li>
+        </ul>
+    </div>
+
+    <div class="conteiner">
+
+        <div class="popup">
+            <h2 class="popup__title">Iphone 5 <span class="close">&#215;</span></h2>
+
+            <div class="popup__item">
+                <img src="./images/phoneImage.png" alt="Iphone 5" />
+                <div class="properties">
+                    <div class="phone__properties">
+                        <div class="phone__memory">
+                            <h4 class="memory__title">Память</h4>
+                            <select class="memory">
+                  <option class="memory__list" value="">64Gb</option>
+                </select>
+                        </div>
+                        <div class="phone__color">
+                            <h4 class="memory__title">Цвет</h4>
+                            <select class="color">
+                  <option class="color__list" value="">Белый</option>
+                </select>
+                        </div>
+                        <div class="phone__count">
+                            <h4 class="memory__title">Количество</h4>
+                            <select class="count">
+                  <option value="">1</option>
+                </select>
+                        </div>
+                    </div>
+                    <div class="buy__block">
+                        <h3 class="pop__price">$519<span class="name__top">.00</span></h3>
+                        <button class="buy__item">Купить</button>
+                    </div>
+                    <span class="buy__else">Посмотреть в магазине</span>
+                </div>
+            </div>
+        </div>
+        <div class="backlay"></div>
+    </div>
+
+
+    <main class="conteiner">
+        <div class="phone__section">
+            <template id="phone-card">
+          {{#each this}}
+
+          <div class="item__block">
+            <img src="{{ img }}" alt="Iphone" />
+            <h3 class="name">{{ name }}</h3>
+            <p class="price">${{ price }}<span class="name__top">.00</p>
+            <button class="buy" data-action="add">Купить</button>
+          </div>
+
+          {{/each}}
+        </template>
+        </div>
+        <ul class="phone-list"></ul>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

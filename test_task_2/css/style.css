@@ -1,0 +1,258 @@
+.conteiner {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.phone-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item__block {
+    margin-bottom: 50px;
+}
+
+.popup {
+    max-width: 690px;
+    padding-bottom: 24px;
+    width: 100%;
+    border: none;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    display: none;
+    z-index: 10;
+    top: 116px;
+    left: 32%;
+}
+
+.popup__title {
+    padding: 24px;
+    border-bottom: 1px solid #bbb;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    margin: 0 0 24px;
+}
+
+.close {
+    font-size: 36px;
+    position: absolute;
+    font-weight: normal;
+    align-items: center;
+    right: 24px;
+    top: 14px;
+    cursor: pointer;
+}
+
+.popup__item {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.phone__properties {
+    display: flex;
+    width: 280px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 0;
+}
+
+.memory__title {
+    margin-bottom: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #222222;
+}
+
+.phone__memory,
+.phone__color,
+.phone__count {
+    width: 120px;
+}
+
+.memory,
+.color,
+.count {
+    width: 100%;
+    margin-bottom: 14px;
+    cursor: pointer;
+}
+
+.buy__block {
+    display: -webkit-box;
+}
+
+select {
+    display: inline-block;
+    border: 2px solid #bbb;
+    padding: 4px 3px 3px 5px;
+    margin: 0;
+    background: #f8f8f8;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-appearance: scrollbarbutton-down;
+}
+
+.nav__bar {
+    margin: 0 auto;
+    background-color: #f4f4f4;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.bar__item {
+    padding: 20px 60px;
+    /* border-right: 1px solid #e2e2e2; */
+    border-top: 15px;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.item__block {
+    border: 1px solid #e4e4e4;
+    width: 280px;
+    text-align: center;
+    padding: 34px 0;
+    position: relative;
+}
+
+.item__block:hover {
+    box-shadow: 0px 0px 58px -37px rgba(0, 0, 0, 0.75);
+    transform: scale(1.02);
+    transition: .5s;
+}
+
+.item__block:hover .buy {
+    display: block;
+    transition: .5s;
+}
+
+img {
+    padding-bottom: 14px;
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 14px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+.price {
+    margin: 0;
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.buy {
+    display: none;
+    position: absolute;
+    bottom: -26px;
+    padding: 12px 30px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    left: 31%;
+    cursor: pointer;
+}
+
+.backlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.308);
+    height: 100%;
+    width: 100%;
+    display: none;
+    z-index: 8;
+}
+
+.popup__item img {
+    height: 276px;
+}
+
+.pop__price {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+.name__top {
+    font-size: 26px;
+    vertical-align: top;
+}
+
+.buy__item {
+    padding: 12px 30px;
+    background-color: orange;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-left: 44px;
+    cursor: pointer;
+}
+
+.buy__else {
+    color: orange;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bar__item input[type=checkbox] {
+    display: none;
+}
+
+.bar__item label::before {
+    content: '';
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    outline: 1px solid #939598;
+    -moz-outline-radius: 6px;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.bar__item input[type=checkbox]:checked+label:before {
+    outline: 1px solid #939598;
+    border: 2px solid #fff;
+    width: 8px;
+    height: 8px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
