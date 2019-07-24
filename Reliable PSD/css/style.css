@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url(/images/header_bg.png);
+    background-image: url(../images/header_bg.png);
     min-height: 660px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -231,7 +231,7 @@ h3 {
 
 .slider {
     background-color: #00b5d2;
-    background-image: url(/images/slider_bg.png);
+    background-image: url(../images/slider_bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 600px;
