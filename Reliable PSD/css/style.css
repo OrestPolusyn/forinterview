@@ -8,7 +8,7 @@
 }
 
 header {
-    background-image: url(/images/header_bg.png);
+    background-image: url(../images/header_bg.png);
     min-height: 660px;
     background-repeat: no-repeat;
     background-size: cover;
