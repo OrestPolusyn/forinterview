@@ -1,0 +1,45 @@
+.navigation-footer {
+    display: flex;
+    justify-content: center;
+    padding: 44px 0 0;
+    align-items: center;
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+footer,
+.navigation-footer a {
+    text-align: center;
+    color: #999999;
+    padding: 0 30px;
+    font-weight: 700;
+}
+
+.mail {
+    a {
+        text-transform: none;
+        color: #e1aa6e;
+        padding: 0;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.057em;
+    }
+    margin-bottom: 48px;
+    position: relative;
+}
+
+.square-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 46px;
+}
+
+.square-one,
+.square-two,
+.square-tree {
+    width: 12px;
+    height: 12px;
+    background: #eeeeee;
+    margin: 0 20px;
+}
