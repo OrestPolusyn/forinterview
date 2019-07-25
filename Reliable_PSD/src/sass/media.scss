@@ -1,11 +1,11 @@
 @media (min-width: 320px) and (max-width: 425px) {
   header {
     background-size: 100% 100%;
-    margin-bottom: 0;;
+    margin-bottom: 0;
   }
   .navigation-header {
-      margin-bottom: 150px;
-      padding: 20px 0;
+    margin-bottom: 150px;
+    padding: 20px 0;
   }
   a img {
     max-width: 240px;
@@ -15,10 +15,9 @@
   }
   button {
     font-size: 16px;
-
   }
   .subtitle {
-      padding: 0;
+    padding: 0;
   }
   .nav-linkHeader a {
     padding: 0;
@@ -28,6 +27,10 @@
   }
   .team img {
     display: none;
+  }
+  #gallery img{
+    min-height: 180px;
+    height: 50%;
   }
 }
 
@@ -58,7 +61,7 @@
 
   .title-block {
     padding-bottom: 30px;
-}
+  }
 
   .team img {
     width: 60%;
@@ -80,23 +83,16 @@
     margin: 0;
   }
   #gallery {
-    height: 54%;
-    width: 72%;
-    left: 14%;
+    max-height: 420px;
+    height: 100%;
+    width: 70%;
   }
-  #btnNavigation {
-    left: 14%;
-    top: 24%;
-    width: 72%;
-    height: 55%;
+
+  #gallery img{
+    min-height: 200px;
+    height: 70%;
   }
-  .btnNavigation {
-    .previous,
-    .next {
-      width: 49.333333%;
-      height: 100%;
-    }
-  }
+
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
@@ -113,49 +109,5 @@
     padding: 0;
     font-size: 16px;
     margin-bottom: 10px;
-  }
-  #gallery {
-    height: 85%;
-    width: 85%;
-    left: 8.333%;
-  }
-  #btnNavigation {
-    left: 9%;
-    height: 83%;
-    width: 85%;
-  }
-  .btnNavigation {
-    .previous,
-    .next {
-      width: 49%;
-      height: 100%;
-    }
-  }
-}
-
-@media (min-width: 1024px) and (max-width: 1200px) {
-  #gallery {
-    left: 13%;
-  }
-  #btnNavigation {
-    left: 14%;
-  }
-  .btnNavigation {
-    .previous,
-    .next {
-      width: 50%;
-    }
-  }
-}
-
-@media (min-width: 1201px){
-  .gallery {
-    left: 24%;
-  }
-}
-
-@media (min-width: 1400px){
-  .gallery {
-    left: 27.333%;
   }
 }

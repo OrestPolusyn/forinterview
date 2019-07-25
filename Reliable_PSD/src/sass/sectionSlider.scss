@@ -57,28 +57,13 @@ li img:hover {
   }
 }
 
-.slider {
-  background: -webkit-image-set(
-      url(../images/slider_bg.png) 1x,
-      url(../images/slider_bg.png) 2x
-    )
-    #00b5d2;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 600px;
-  padding: 0 30px;
-  position: relative;
-  margin-bottom: 112px;
-  .container {
-    padding: 50px 0 0 12px;
-  }
-  h2 {
-    letter-spacing: 0.028em;
-  }
-}
+
 
 .team {
     background: #367ab7;
+}
+.team .container {
+  padding: 0;
 
 }
 
