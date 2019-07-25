@@ -846,6 +846,12 @@ footer,
   }
 }
 
+@media (min-width: 1400px) {
+  .gallery {
+    left: 27.333%;
+  }
+}
+
 @media (max-width: 768px) {
   .link-img {
     max-width: 240px;
