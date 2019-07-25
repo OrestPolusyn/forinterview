@@ -1,52 +1,58 @@
 @media (max-width: 768px) {
-    .link-img {
-        img {
-            width: 98%;
-            height: 26px;
-        }
-        max-width: 240px;
-        width: 85%;
+  .link-img {
+    img {
+      width: 98%;
+      height: 26px;
     }
-    #menu-wrap {
-        position: relative;
+    max-width: 240px;
+    width: 85%;
+  }
+  #menu-wrap {
+    position: relative;
+  }
+  #menu-trigger {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0px 0px 0px 35px;
+    border: 1px solid #fff;
+    color: #d17e52;
+    font-weight: bold;
+    background-color: #d17e52;
+    background: -webkit-image-set(
+        url(../images/menu.png) 1x,
+        url(../images/images@2x/menu@2x.png) 2x
+      )
+      no-repeat center center;
+    border-radius: 6px;
+  }
+  .nav-item {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    z-index: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    color: white;
+  }
+  .nav-linkHeader {
+    a {
+      color: #fff;
+      &:hover::before,
+      &:focus::before {
+        height: 2px;
+        bottom: -6px;
+      }
     }
-    #menu-trigger {
-        display: block;
-        height: 40px;
-        line-height: 40px;
-        cursor: pointer;
-        padding: 0px 0px 0px 35px;
-        border: 1px solid #fff;
-        color: #d17e52;
-        font-weight: bold;
-        background-color: #d17e52;
-        background: -webkit-image-set(url(../images/menu.png) 1x, url(../images/images@2x/menu@2x.png) 2x) no-repeat center center;
-        border-radius: 6px;
+    &:last-child a {
+      &:hover::before,
+      &:active::before {
+        left: 23%;
+      }
     }
-    .nav-item {
-        position: absolute;
-        top: 80px;
-        width: 100%;
-        z-index: 1;
-        justify-content: center;
-        text-align: center;
-        display: none;
-        color: white;
-    }
-    .nav-linkHeader {
-        a {
-            color: #fff;
-            &:hover::before,
-            &:focus::before {
-                height: 2px;
-                bottom: -6px;
-            }
-        }
-        &:last-child a {
-            &:hover::before,
-            &:active::before {
-                left: 23%;
-            }
-        }
-    }
+  }
 }

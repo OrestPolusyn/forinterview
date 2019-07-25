@@ -33,7 +33,11 @@
     min-height: 520px;
     height: 100%;
   
-    transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+  
+        -ms-transform: translateY(40px);
+  
+            transform: translateY(40px);
     border: 8px solid #fff;
     position: absolute;
     top: 0;
@@ -52,7 +56,8 @@
 
 .previous,
 .next {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   color: rgba(0, 0, 0, 0);
   color: black;
   display: inline-block;

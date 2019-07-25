@@ -1,16 +1,26 @@
 .partner-block {
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
    background-color: #fafafa;
   img {
     width: 100%;
     // padding: 0 10px;
-    filter: grayscale(100%) opacity(0.8) contrast(10%);
+    -webkit-filter: grayscale(100%) opacity(0.8) contrast(10%);
+            filter: grayscale(100%) opacity(0.8) contrast(10%);
   }
   .container {
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0 30px;
     padding: 26px 30px 24px;
 
@@ -18,7 +28,8 @@
 }
 
 li img:hover {
-  filter: none;
+  -webkit-filter: none;
+          filter: none;
 }
 
 .support-block {
@@ -68,6 +79,8 @@ li img:hover {
 }
 
 .joinTeam-block  {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #367ab7;
   max-height: 440px;
