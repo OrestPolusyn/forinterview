@@ -55,26 +55,24 @@
     h2 span {
         font-size: 26px;
     }
-    .slider-images li {
-        position: absolute;
-        height: 40%;
-        width: 60%;
-    }
-    .slider-image img {
-        height: 100%;
-    }
-    .carousel-navigation {
-        width: 70%;
-        height: 50%;
-    }
-    .previous,
-    .next {
-        width: 48%;
-        height: 100%;
-    }
     .slider {
-        min-height: 400px;
-        margin-bottom: 0;
+        margin: 0;
+    }
+    #gallery {
+        height: 54%;
+        width: 72%;
+        left: 14%;
+    }
+    #btnNavigation {
+        left: 14%;
+        top: 24%;
+        width: 72%;
+        height: 55%;
+    }
+    .btnNavigation .previous,
+    .btnNavigation .next {
+        width: 49.333333%;
+        height: 100%;
     }
 }
 
@@ -93,25 +91,32 @@
         font-size: 16px;
         margin-bottom: 10px;
     }
-    .carousel-navigation,
-    .slider-images li {
-        left: 15%;
+    #gallery {
+        height: 85%;
+        width: 85%;
+        left: 8.333%;
     }
-    .slider-images li {
-        position: absolute;
-        height: 50%;
-        width: 70%;
+    #btnNavigation {
+        left: 9%;
+        height: 83%;
+        width: 85%;
     }
-    .slider-image img {
+    .btnNavigation .previous,
+    .btnNavigation .next {
+        width: 49%;
         height: 100%;
     }
-    .carousel-navigation {
-        width: 70%;
-        height: 50%;
+}
+
+@media (min-width:1024px) and (max-width:1200px) {
+    #gallery {
+        left: 13%;
     }
-    .previous,
-    .next {
-        width: 49.333%;
-        height: 100%;
+    #btnNavigation {
+        left: 14%;
+    }
+    .btnNavigation .previous,
+    .btnNavigation .next {
+        width: 50%;
     }
 }

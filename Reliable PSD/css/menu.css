@@ -20,7 +20,7 @@
         color: #d17e52;
         font-weight: bold;
         background-color: #d17e52;
-        background: url(../images/menu.png) no-repeat 8px center;
+        background: -webkit-image-set( url(../images/menu.png) 1x, url(../images/images@2x/menu@2x.png) 2x) no-repeat 8px center;
         border-radius: 6px;
     }
     .nav-item {

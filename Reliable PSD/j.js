@@ -1,7 +1,6 @@
-const sliderCarosel = function() {
-    let x = $(".bxslider li:visible");
-    let y = (x.attr("id") == 3) ? $("#1") : x.next();
-    y.fadeIn(1500, function() {
-        x.fadeOut(1500);
-    });
-};
+< img
+srcset = "./img/img-03.png 380w, ./img/img-03@2x.png 760w"
+sizes = "380px"
+src = "./img/img-03.png"
+alt = "man" /
+    >
