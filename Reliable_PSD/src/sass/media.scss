@@ -1,128 +1,155 @@
 @media (min-width: 320px) and (max-width: 425px) {
-    a img {
-        max-width: 240px;
-    }
-    h1 {
-        font-size: 40px;
-    }
-    button {
-        font-size: 16px;
-        margin-bottom: 40px;
-    }
-    .nav-linkHeader a {
-        padding: 0;
-    }
-    .support-block h2 {
-        padding-top: 50px;
-    }
-    .joinTeam-block img {
-        display: none;
-    }
+  header {
+    background-size: 100% 100%;
+    margin-bottom: 0;;
+  }
+  .navigation-header {
+      margin-bottom: 150px;
+      padding: 20px 0;
+  }
+  a img {
+    max-width: 240px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  button {
+    font-size: 16px;
+
+  }
+  .subtitle {
+      padding: 0;
+  }
+  .nav-linkHeader a {
+    padding: 0;
+  }
+  .support-block h2 {
+    padding-top: 50px;
+  }
+  .team img {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
-    .subtitle {
-        padding: 0 140px 0 0;
+  .subtitle {
+    padding: 0 140px 0 0;
+  }
+  ul li {
+    margin: 14px auto;
+    padding: 0 20px;
+    max-width: 190px;
+    width: 100%;
+    justify-content: center;
+  }
+  p,
+  .helps-block p,
+  .team p,
+  .joinTeam {
+    padding: 0 0 0 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .team {
+    padding: 26px 0;
+    min-height: 630px;
+  }
+
+  .title-block {
+    padding-bottom: 30px;
+}
+
+  .team img {
+    width: 60%;
+  }
+  h2,
+  .joinTeam h2,
+  h2 span {
+    font-size: 26px;
+  }
+  h5 {
+    margin: 0 0 30px;
+  }
+  h2,
+  .joinTeam h2,
+  h2 span {
+    font-size: 26px;
+  }
+  .slider {
+    margin: 0;
+  }
+  #gallery {
+    height: 54%;
+    width: 72%;
+    left: 14%;
+  }
+  #btnNavigation {
+    left: 14%;
+    top: 24%;
+    width: 72%;
+    height: 55%;
+  }
+  .btnNavigation {
+    .previous,
+    .next {
+      width: 49.333333%;
+      height: 100%;
     }
-    ul li {
-        margin: 14px auto;
-        padding: 0 20px;
-        max-width: 190px;
-        width: 100%;
-        justify-content: center;
-    }
-    p,
-    .helps-block p,
-    .joinTeam p,
-    .joinTeam-text {
-        padding: 0;
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .joinTeam-block img {
-        width: 60%;
-    }
-    h2,
-    .joinTeam h2,
-    h2 span {
-        font-size: 26px;
-    }
-    h5 {
-        margin: 0 0 30px;
-    }
-    h2,
-    .joinTeam h2,
-    h2 span {
-        font-size: 26px;
-    }
-    .slider {
-        margin: 0;
-    }
-    #gallery {
-        height: 54%;
-        width: 72%;
-        left: 14%;
-    }
-    #btnNavigation {
-        left: 14%;
-        top: 24%;
-        width: 72%;
-        height: 55%;
-    }
-    .btnNavigation {
-        .previous,
-        .next {
-            width: 49.333333%;
-            height: 100%;
-        }
-    }
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1200px) {
-    .subtitle {
-        padding: 0 550px 0 0;
+  .subtitle {
+    padding: 0 550px 0 0;
+  }
+  h2,
+  .joinTeam h2,
+  h2 span {
+    font-size: 32px;
+  }
+  .joinTeam p,
+  .joinTeam-text {
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  #gallery {
+    height: 85%;
+    width: 85%;
+    left: 8.333%;
+  }
+  #btnNavigation {
+    left: 9%;
+    height: 83%;
+    width: 85%;
+  }
+  .btnNavigation {
+    .previous,
+    .next {
+      width: 49%;
+      height: 100%;
     }
-    h2,
-    .joinTeam h2,
-    h2 span {
-        font-size: 32px;
-    }
-    .joinTeam p,
-    .joinTeam-text {
-        padding: 0;
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    #gallery {
-        height: 85%;
-        width: 85%;
-        left: 8.333%;
-    }
-    #btnNavigation {
-        left: 9%;
-        height: 83%;
-        width: 85%;
-    }
-    .btnNavigation {
-        .previous,
-        .next {
-            width: 49%;
-            height: 100%;
-        }
-    }
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1200px) {
-    #gallery {
-        left: 13%;
+  #gallery {
+    left: 13%;
+  }
+  #btnNavigation {
+    left: 14%;
+  }
+  .btnNavigation {
+    .previous,
+    .next {
+      width: 50%;
     }
-    #btnNavigation {
-        left: 14%;
-    }
-    .btnNavigation {
-        .previous,
-        .next {
-            width: 50%;
-        }
-    }
+  }
+}
+
+@media (min-width: 1201px){
+  .gallery {
+    left: 24%;
+  }
 }

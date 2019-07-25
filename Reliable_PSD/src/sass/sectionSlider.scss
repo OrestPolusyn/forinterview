@@ -1,131 +1,153 @@
 .partner-block {
+  justify-content: center;
+   background-color: #fafafa;
+  img {
+    width: 100%;
+    // padding: 0 10px;
+    filter: grayscale(100%) opacity(0.8) contrast(10%);
+  }
+  .container {
     justify-content: space-between;
-    align-items: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    padding: 0 30px;
     padding: 26px 30px 24px;
-    background-color: #fafafa;
-    img {
-        width: 100%;
-        filter: grayscale(100%) opacity(0.8) contrast(10%);
-    }
+
+  }
 }
 
 li img:hover {
-    filter: none;
+  filter: none;
 }
 
 .support-block {
-    background-color: #00b5d2;
-    padding: 0 30px;
-    img {
-        margin: 0 auto;
-        max-width: 948px;
-        width: 100%;
-    }
+  background-color: #00b5d2;
+  padding: 0 30px;
+  img {
+    margin: 0 auto;
+    max-width: 948px;
+    width: 100%;
+  }
+  div {
+    padding-top: 92px;
+  }
 }
 
 .support-block h2 {
-    padding-top: 92px;
-    margin: 0 0 30px;
+  margin: 0 0 30px;
 }
 
 .helps-block {
-    padding: 0 30px;
-    text-align: center;
+  padding: 0 30px;
+  text-align: center;
+  div {
+    padding-top: 68px;
+  }
 }
 
 .helps-block {
-    p {
-        color: #444444;
-        padding: 0 192px;
-        margin-bottom: 36px;
-    }
-    button {
-        margin-bottom: 70px;
-    }
+  p {
+    color: #444444;
+    padding: 0 192px;
+    margin-bottom: 36px;
+  }
+  button {
+    margin-bottom: 70px;
+  }
 }
 
 .slider {
-    background: -webkit-image-set(url(../images/slider_bg.png) 1x, url(../images/slider_bg.png) 2x) #00b5d2;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
-    padding: 0 30px;
-    position: relative;
-    margin-bottom: 112px;
-    h2 {
-        padding: 50px 0 0 12px;
-        letter-spacing: 0.028em;
-    }
+  background: -webkit-image-set(
+      url(../images/slider_bg.png) 1x,
+      url(../images/slider_bg.png) 2x
+    )
+    #00b5d2;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+  padding: 0 30px;
+  position: relative;
+  margin-bottom: 112px;
+  .container {
+    padding: 50px 0 0 12px;
+  }
+  h2 {
+    letter-spacing: 0.028em;
+  }
 }
 
-.joinTeam-block {
-    display: flex;
-    background-color: #367ab7;
-    max-height: 440px;
+.team {
+    background: #367ab7;
+
+}
+
+.joinTeam-block  {
+  display: flex;
+  background-color: #367ab7;
+  max-height: 440px;
 }
 
 .joinTeam {
+  text-align: left;
+  h2,
+  p {
     text-align: left;
-    h2,
-    p {
-        text-align: left;
-    }
-    padding: 30px;
+  }
+  padding: 30px;
 }
 
 .joinTeam-text {
-    color: white;
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 40px;
-    font-style: italic;
-    letter-spacing: -0.001em;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  font-style: italic;
+  letter-spacing: -0.001em;
 }
 
 .joinTeam-block img {
-    max-width: 51%;
-    width: 100%;
+  max-width: 51%;
+  width: 100%;
 }
 
 .joinTeam h2,
 h2 span {
-    padding-top: 26px;
-    font-size: 48px;
-    color: #ffffff;
-    margin: 0 0 28px;
+  padding-top: 26px;
+  font-size: 48px;
+  color: #ffffff;
+  margin: 0 0 28px;
 }
 
 .joinTeam-title {
-    position: relative;
-    font-weight: 900;
-    &::before {
-        content: "";
-        display: block;
-        width: 98%;
-        height: 4px;
-        position: absolute;
-        left: 0;
-        bottom: -14px;
-        background-color: #00b5d2;
-        opacity: 1;
-    }
+  position: relative;
+  font-weight: 900;
+  &::before {
+    content: '';
+    display: block;
+    width: 98%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: -14px;
+    background-color: #00b5d2;
+    opacity: 1;
+  }
 }
 
 .joinTeam p {
-    padding-right: 50px;
-    margin-bottom: 40px;
+  padding-right: 50px;
+  margin-bottom: 40px;
 }
 
 .btn-team {
-    background-color: #00b5d2;
-    margin-bottom: 40px;
-    &::before {
-        background-color: #008ea5;
-    }
+  background-color: #00b5d2;
+  margin-bottom: 40px;
+  &::before {
+    background-color: #008ea5;
+  }
 }
 
 #menu-trigger {
-    display: none;
+  display: none;
 }
