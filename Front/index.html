@@ -13,9 +13,10 @@
       const name = document.getElementById("Summ");
       const nameOS = FRUBIL.client.os;
       console.log(nameOS);
-      const osVersion = FRUBIL.client.os_code;
-      console.log(osVersion);
-      const nameDevice = FRUBIL.device.brand + "" + FRUBIL.device.marketname;
+      // const osVersion = FRUBIL.client.os_code;
+      // console.log(osVersion);
+     
+      const nameDevice = FRUBIL.device.brand + " " + FRUBIL.device.marketname;
       console.log(nameDevice);
       const nowDate = new Date().toDateString();
       console.log(nowDate);
@@ -26,8 +27,7 @@
            lobortis. Phasellus eget lectus mollis, viverra velit et, tincidunt
            sem. Phasellus imperdiet consectetur dui at auctor. Curabitur quis
            accumsan nisl. Cras maximus velit volutpat velit rutrum, at tincidunt
-           lectus commodo. Ut congue quam finibus, ${nameOS} ${osVersion}
-           scelerisque justo nec, dictum ante. Fusce non efficitur odio.
+           lectus commodo. Ut congue quam finibus, ${nameOS} scelerisque justo nec, dictum ante. Fusce non efficitur odio.
            Phasellus posuere ${nameDevice} tempus arcu, ac pharetra diam eleifend
            sit amet. Maecenas lacinia rhoncus nibh eget fermentum. Sed eu rhoncus
            sapien. Nulla sit amet metus id libero ultricies congue. Etiam tempor
