@@ -7,40 +7,31 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="Summ"></div>
-
+    <div id="Summ" style="width: 500px; text-align: justify; margin: 0 auto; padding: 50px;"></div>
     <script type="text/javascript" src="//js.frubil.info/"></script>
     <script>
       const name = document.getElementById("Summ");
-
-      const nameSystem = FRUBIL.client.os;
-      const nameSystemVersion = FRUBIL;
-      const nameDevice = FRUBIL.device.class;
-      const now = new Date().toDateString();
-    
-
-      //       {{OS}} - название ОС (Windows 10, Windows 7, iOS и тп)
-      // {{osversion}} - версия ОС (10.2, 11.4 и тп)
-      // {{device}} - бренд производителя устройства (Apple, HTC, Samsung etc)
-      // {{date}} - дата захода посетителя на страницу
-
-      console.log(nameSystem);
-      console.log(nameSystemVersion);
+      const nameOS = FRUBIL.client.os;
+      console.log(nameOS);
+      const osVersion = FRUBIL.client.os_code;
+      console.log(osVersion);
+      const nameDevice = FRUBIL.device.brand + "" + FRUBIL.device.marketname;
       console.log(nameDevice);
+      const nowDate = new Date().toDateString();
+      console.log(nowDate);
 
       name.textContent = `
-        Lorem ipsum dolor sit amet, ${nameSystem} consectetur adipiscing elit. Ut
+        Lorem ipsum dolor sit amet, ${nameOS} consectetur adipiscing elit. Ut
            elementum urna imperdiet libero malesuada, sed lobortis ipsum
            lobortis. Phasellus eget lectus mollis, viverra velit et, tincidunt
            sem. Phasellus imperdiet consectetur dui at auctor. Curabitur quis
            accumsan nisl. Cras maximus velit volutpat velit rutrum, at tincidunt
-           lectus commodo. Ut congue quam finibus, ${nameSystem} {{ osversion }
+           lectus commodo. Ut congue quam finibus, ${nameOS} ${osVersion}
            scelerisque justo nec, dictum ante. Fusce non efficitur odio.
            Phasellus posuere ${nameDevice} tempus arcu, ac pharetra diam eleifend
            sit amet. Maecenas lacinia rhoncus nibh eget fermentum. Sed eu rhoncus
            sapien. Nulla sit amet metus id libero ultricies congue. Etiam tempor
-           odio orci, ac commodo justo mattis et. Orci varius natoque. ${now}`;
-
+           odio orci, ac commodo justo mattis et. Orci varius natoque. ${nowDate}`;
       nameSystem + " " + nameDevice;
     </script>
   </body>
