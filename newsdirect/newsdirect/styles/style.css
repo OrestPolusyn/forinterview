@@ -84,7 +84,7 @@ p {
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.6)),
-    url(/.images/top-bg.jpg);
+    url(./images/top-bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -211,7 +211,7 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
     .digital-img-white::before {
-    background-image: url(/.images/arrow-white@2x.png);
+    background-image: url(./images/arrow-white@2x.png);
     background-size: 100% 100%;
     }
 }
@@ -223,7 +223,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .digital-img-white::before {
-        background-image: url(/.images/arrow-white@3x.png); 
+        background-image: url(./images/arrow-white@3x.png); 
         background-size: 100% 100%;
     }
 } */
