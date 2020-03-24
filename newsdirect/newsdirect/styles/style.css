@@ -10,12 +10,12 @@
 
 @font-face {
     font-family: "CenturyGothic"; 
-    src: url("/fonts/CenturyGothic.woff") format("woff"), 
-    url("/fonts/CenturyGothic-Bold.woff") format("woff"), 
-    url("/fonts/CenturyGothic.ttf") format("truetype"), 
-    url("/fonts/CenturyGothic-Bold.ttf") format("truetype"), 
-    url("/fonts/CenturyGothic-Bold.eot") format("embedded-opentype"), 
-    url("/fonts/CenturyGothic.eot") format("embedded-opentype") 
+    src: url("../fonts/CenturyGothic.woff") format("woff"), 
+    url("../fonts/CenturyGothic-Bold.woff") format("woff"), 
+    url("../fonts/CenturyGothic.ttf") format("truetype"), 
+    url("../fonts/CenturyGothic-Bold.ttf") format("truetype"), 
+    url("../fonts/CenturyGothic-Bold.eot") format("embedded-opentype"), 
+    url("../fonts/CenturyGothic.eot") format("embedded-opentype") 
 }
 
 body {
@@ -84,7 +84,7 @@ p {
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.6)),
-    url(/images/top-bg.jpg);
+    url(/.images/top-bg.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     position: absolute;
@@ -101,7 +101,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     background-image: linear-gradient(to right, 
     rgba(0, 0, 0, 0.6), 
     rgba(0, 0, 0, 0.6)),
-    url(/images/top-bg@2x.jpg);
+    url(/.images/top-bg@2x.jpg);
     background-size: 100% 100%;
     }
 }
@@ -116,7 +116,7 @@ only screen and (                min-resolution: 2dppx) {
         background-image: linear-gradient(to right, 
         rgba(0, 0, 0, 0.6), 
         rgba(0, 0, 0, 0.6)),
-        url(/images/top-bg@3x.jpg); 
+        url(/.images/top-bg@3x.jpg); 
         background-size: 100% 100%;
     }
 } */
@@ -196,7 +196,7 @@ only screen and (                min-resolution: 2dppx) {
 .digital-img-white::before {
     content: "";
     display: block;
-    background-image: url(/images/arrow-white.png);
+    background-image: url(./.images/arrow-white.png);
     min-width: 190px;
     max-height: 186px;
     width: 100%;
@@ -211,7 +211,7 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
     .digital-img-white::before {
-    background-image: url(/images/arrow-white@2x.png);
+    background-image: url(/.images/arrow-white@2x.png);
     background-size: 100% 100%;
     }
 }
@@ -223,7 +223,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .digital-img-white::before {
-        background-image: url(/images/arrow-white@3x.png); 
+        background-image: url(/.images/arrow-white@3x.png); 
         background-size: 100% 100%;
     }
 } */
@@ -231,7 +231,7 @@ only screen and (                min-resolution: 2dppx) {
 .digital-img-color::before {
     content: "";
     display: block;
-    background-image: url(/images/arrow-color.png);
+    background-image: url(./.images/arrow-color.png);
     background-repeat: no-repeat;
     min-width: 190px;
     max-height: 186px;
@@ -246,7 +246,7 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
     .digital-img-color::before {
-    background-image: url(/images/arrow-color@2x.png);
+    background-image: url(/.images/arrow-color@2x.png);
     background-size: 100% 100%;
 }
 }
@@ -258,7 +258,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .digital-img-color::before {
-        background-image: url(/images/arrow-color@3x.png); 
+        background-image: url(/.images/arrow-color@3x.png); 
         background-size: 100% 100%;
     }
 } */
@@ -477,7 +477,7 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .backgrond-bottom {
-    background-image: url(/images/bottom-bg.jpg);
+    background-image: url(/.images/bottom-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     max-height: 1002px;  
@@ -491,7 +491,7 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
     .backgrond-bottom {
-    background-image: url(/images/bottom-bg@2x.jpg);
+    background-image: url(/.images/bottom-bg@2x.jpg);
     background-size: 100% 100%;
     }
 }
@@ -503,14 +503,14 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .backgrond-bottom {
-        background-image: url(/images/bottom-bg@3x.jpg);
+        background-image: url(/.images/bottom-bg@3x.jpg);
         background-size: 100% 100%;
     }
 } */
 
 
 .backgrond-overlay {
-    background-image: url(/images/bottombg-layer.png);
+    background-image: url(/.images/bottombg-layer.png);
         height: 1002px;
        width: 100%;
        z-index: -1;
@@ -525,7 +525,7 @@ only screen and (-moz-min-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
 only screen and (min-device-pixel-ratio: 1.5) {
     .backgrond-overlay {
-    background-image: url(/images/bottombg-layer@2x.png);
+    background-image: url(/.images/bottombg-layer@2x.png);
     background-size: 100% 100%;
     }
 }
@@ -537,7 +537,7 @@ only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
     .backgrond-overlay {
-        background-image: url(/images/bottombg-layer@3x.png);
+        background-image: url(/.images/bottombg-layer@3x.png);
         background-size: 100% 100%;
     }
 } */
@@ -659,7 +659,7 @@ select::-webkit-scrollbar {
 }
 
 .country-holder {
-    background: url(/images/country-arrow.svg) no-repeat;
+    background: url(/.images/country-arrow.svg) no-repeat;
     background-size: 18px 18px;
     background-position: 99% 50%;
 	-webkit-appearance: none;
@@ -745,7 +745,7 @@ textarea::-webkit-scrollbar{
 } */
 
 :required:valid:not(:placeholder-shown) {
-    background: url(/images/arrow-company.svg) no-repeat 100% 61%;
+    background: url(/.images/arrow-company.svg) no-repeat 100% 61%;
     background-size: 18px 18px;
 }
 
