@@ -196,7 +196,7 @@ only screen and (                min-resolution: 2dppx) {
 .digital-img-white::before {
     content: "";
     display: block;
-    background-image: url(./.images/arrow-white.png);
+    background-image: url(./images/arrow-white.png);
     min-width: 190px;
     max-height: 186px;
     width: 100%;
@@ -231,7 +231,7 @@ only screen and (                min-resolution: 2dppx) {
 .digital-img-color::before {
     content: "";
     display: block;
-    background-image: url(./.images/arrow-color.png);
+    background-image: url(./images/arrow-color.png);
     background-repeat: no-repeat;
     min-width: 190px;
     max-height: 186px;
@@ -659,7 +659,7 @@ select::-webkit-scrollbar {
 }
 
 .country-holder {
-    background: url(/.images/country-arrow.svg) no-repeat;
+    background: url(./images/country-arrow.svg) no-repeat;
     background-size: 18px 18px;
     background-position: 99% 50%;
 	-webkit-appearance: none;
