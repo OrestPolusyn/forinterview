@@ -1,0 +1,77 @@
+@media (max-width: 960px) {
+  .mobile-icon {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 50px;
+    right: 20px;
+    background-image: url(../img/menu.svg);
+    background-size: cover;
+    z-index: 100;
+  }
+
+  .mobile-item:hover {
+    cursor: pointer;
+  }
+
+  .mobile-item .nav-list {
+    display: none;
+    position: absolute;
+    right: 20px;
+    height: fit-content;
+    width: 150px;
+    top: 82px;
+    background-color: rgba(0, 0, 0, 0.952);
+    flex-wrap: wrap;
+  }
+
+  .mobile-item .item {
+    padding: 12px 20px;
+    width: 100%;
+    border-bottom: 1px solid #fafafa;
+  }
+
+  .mobile-item a {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #fafafa;
+  }
+
+  .detail {
+      justify-content: center;
+  }
+  .cart {
+    margin: 30px;
+  }
+
+  .logo_block {
+    margin-left: 30px;
+  }
+
+  .bag_cart {
+      margin: 0;
+  }
+}
+
+@media (max-width: 425px) { 
+    .title_header {
+        font-size: 22px;
+    }
+
+    .sub-title {
+        font-size: 30px;
+    }
+    
+    .extra-title {
+        font-size: 14px;
+    }
+
+    .ideas_title {
+        font-size: 22px;
+    }
+
+    .ideas_subtitle {
+        font-size: 14px;
+    }
+}
